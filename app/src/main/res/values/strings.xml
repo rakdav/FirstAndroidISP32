@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Сумма чисел</string>
-    <string name="first">Введите первое число</string>
-    <string name="second">Введите второе число</string>
+    <string name="app_name">Sum</string>
+    <string name="first">First</string>
+    <string name="second">Second</string>
     <string name="OK">OK</string>
     <string name="div">/</string>
     <string name="mult">*</string>

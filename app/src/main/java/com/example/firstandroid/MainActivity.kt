@@ -10,7 +10,7 @@ import android.widget.TextView
 class MainActivity : AppCompatActivity() {
     private lateinit var first:EditText
     private lateinit var second:EditText
-    private lateinit var buttonOK:Button
+    private lateinit var buttonAdd:Button
     private lateinit var result:TextView
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,12 +18,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         first=findViewById(R.id.firstNumber)
         second=findViewById(R.id.secondNumber)
-        buttonOK=findViewById(R.id.buttonOk)
+        buttonAdd=findViewById(R.id.buttonAdd)
         result=findViewById(R.id.result)
-        buttonOK.setOnClickListener{
+        buttonAdd.setOnClickListener{
             var a:Double=first.text.toString().toDouble()
             var b:Double=second.text.toString().toDouble()
             result.setText("$a+$b=${a+b}")
         }
+
     }
 }

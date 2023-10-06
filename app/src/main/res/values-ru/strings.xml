@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Сумма чисел</string>
+    <string name="first">Введите первое число</string>
+    <string name="second">Введите второе число</string>
+    <string name="OK">OK</string>
+    <string name="div">/</string>
+    <string name="mult">*</string>
+    <string name="sub">-</string>
+    <string name="add">+</string>
+</resources>
