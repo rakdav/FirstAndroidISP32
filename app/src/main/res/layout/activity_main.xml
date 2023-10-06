@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/firstNumber"
         android:hint="@string/first"
+        android:inputType="numberDecimal"
         android:textSize="12pt"
         />
     <EditText
@@ -20,6 +21,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/secondNumber"
         android:hint="@string/second"
+        android:inputType="numberDecimal"
         android:textSize="12pt"
         />
     <Button
@@ -31,6 +33,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:textSize="12pt"
+        android:gravity="center"
         android:id="@+id/result"/>
 
 </LinearLayout>
