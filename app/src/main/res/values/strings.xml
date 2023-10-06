@@ -3,4 +3,8 @@
     <string name="first">Введите первое число</string>
     <string name="second">Введите второе число</string>
     <string name="OK">OK</string>
+    <string name="div">/</string>
+    <string name="mult">*</string>
+    <string name="sub">-</string>
+    <string name="add">+</string>
 </resources>
